@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1>Formulario para Astronauta</h1>
+
+    <form class="Astronauta" action="index.html" method="post">
+      Nombres
+      <input type="text" name="Nombres">
+
+      <br>
+      <br>
+
+      Apellidos
+      <input type="text" name="Apellidos">
+
+      <br>
+      <br>
+
+      Sexo
+      <select class="Sexo" name="Sexo">
+        <option value="Hombre">Hombre</option>
+        <option value="Mujer">Mujer</option>
+      </select>
+
+      <br>
+      <br>
+
+      Fecha de Nacimiento
+      <br>
+      <br>
+      Día
+      <input type="Number" name="Dia"  min="1" style="width: 40px;">
+      Mes
+      <input type="Number" name="Mes" min="1" max="12" style="width: 40px;">
+      Año
+      <input type="Number" name="Año" min="1990" style="width: 60px;">
+
+      <br>
+      <br>
+
+      <h2>Responda las siguientes preguntas.</h2>
+      ¿Crees que estás capacitado para ser un Astronauta?, ¿Por qué?
+      <br>
+      <textarea name="Pregunta1" rows="8" cols="80"></textarea>
+
+      <br>
+      <br>
+
+      ¿Por qué te interesa ser Astronauta?
+      <br>
+      <textarea name="Pregunta2" rows="8" cols="80"></textarea>
+
+      <br>
+      <br>
+
+      He leído y acepto los términos al responder este Formulario
+      <br>
+      Acepto
+      <input type="checkbox" name="Términos" >
+
+      <br>
+      <br>
+
+      <input type="submit" name="Enviar" value="Enviar">
+      <input type="reset" name="Reiniciar" value="Reiniciar">
+
+    </form>
+
+  </body>
+</html>
